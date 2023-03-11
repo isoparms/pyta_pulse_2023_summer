@@ -9,3 +9,4 @@ Please make sure to make a folder with your name and last name all lower case, l
 # Useful git commands:
 git clone https://github.com/isoparms/pyta_pulse_2023_summer
 git -C "D:\pulse_college\pyta_pulse_2023_summer" pull
+
