@@ -4,6 +4,7 @@
         File batcher lecture
         dict()
         json, yml & serialisation of data.
+        underscores in names (json, or json)
 
     Project 1:
         Read / Write json data to files.
@@ -13,7 +14,7 @@
 
 """
 
-import json as _json
+import json
 
 def json(path_or_file, obj=None, default=None, indent=4, sort_keys=True):
     """
@@ -57,13 +58,12 @@ def json(path_or_file, obj=None, default=None, indent=4, sort_keys=True):
             except:
                 raise Exception("invalid path: \"{0}\"".format(path))
 
-        pylog.info([file_object, path])
         if file_object:
-            _json.dump(obj, file_object, indent=indent, sort_keys=sort_keys)
+            json.dump(obj, file_object, indent=indent, sort_keys=sort_keys)
         else:
 
             with open(path, mode="w") as f:
-                _json.dump(obj, f, indent=indent, sort_keys=sort_keys)
+                json.dump(obj, f, indent=indent, sort_keys=sort_keys)
 
         return True
 
@@ -71,13 +71,13 @@ def json(path_or_file, obj=None, default=None, indent=4, sort_keys=True):
         if file_object:
             # json fails if the file is empty
             try:
-                data = _json.load(file_object)
+                data = json.load(file_object)
             except ValueError:
                 data = default
         else:
             with open(path, mode="r") as f:
                 try:
-                    data = _json.load(f)
+                    data = json.load(f)
                 except ValueError:
                     data = default
 
