@@ -111,3 +111,9 @@ def name(file_path, include_ext=False):
         return file_name + ext(file_path)
 
     return file_name
+
+
+def make_dir(dirname):
+    dirname = os.path.expandvars(dirname)
+    if not os.path.exists(dirname):
+        os.makedirs(dirname)
