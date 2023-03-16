@@ -1,3 +1,6 @@
+![Pulse](https://github.com/isoparms/pyta_pulse_2023_summer/blob/main/prebuilt/pulse/pulse_logo_c.png?raw=true)
+
+
 # Python for Tech Artists 101
 This repo will have Python examples and helpful stuff for class.
 
@@ -189,4 +192,3 @@ git -C "D:\pulse_college\pyta_pulse_2023_summer" pull
     Project 2 / Homework:
         File batcher.
 
-![Pulse](https://github.com/isoparms/pyta_pulse_2023_summer/prebuilt/pulse/main/pulse_logo_c?raw=true)

@@ -1,4 +1,4 @@
-![Pulse](https://github.com/isoparms/pyta_pulse_2023_summer/prebuilt/pulse/main/pulse_logo_c?raw=true)
+![Pulse](https://github.com/isoparms/pyta_pulse_2023_summer/blob/main/prebuilt/pulse/pulse_logo_c.png?raw=true)
 
 # instructions:
 This is where we ask questions and get answers async.
