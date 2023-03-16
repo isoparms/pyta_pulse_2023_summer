@@ -188,3 +188,5 @@ git -C "D:\pulse_college\pyta_pulse_2023_summer" pull
 
     Project 2 / Homework:
         File batcher.
+
+![Pulse](https://github.com/isoparms/pyta_pulse_2023_summer/prebuilt/pulse/main/pulse_logo_c?raw=true)

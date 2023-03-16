@@ -1,3 +1,5 @@
+![Pulse](https://github.com/isoparms/pyta_pulse_2023_summer/prebuilt/pulse/main/pulse_logo_c?raw=true)
+
 # instructions:
 This is where we ask questions and get answers async.
 Ask a question, and make a PR.
