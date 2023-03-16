@@ -1,3 +1,5 @@
+![Pulse](https://github.com/isoparms/pyta_pulse_2023_summer/prebuilt/pulse/main/pulse_logo_c?raw=true)
+
 # Bio & Blurb:
 
 Hi, 
